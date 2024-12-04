@@ -1,0 +1,57 @@
+.container {
+    display: grid;
+    grid-template-columns:  480px 480px 480px 480px;
+    grid-template-rows:  80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px;
+    grid-column-gap: 10px;
+    grid-row-gap: -20px;
+}
+.item-1 {
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 100px;
+    line-height: 110px;
+    letter-spacing: -6px;
+    margin-top: 0px;
+    grid-row-start: 1;
+    grid-row-end: 6;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.item-2 {
+    font-family: "Poppins";
+   font-weight: 200px;
+    font-size: 20px;
+    line-height: 14px;
+    letter-spacing: -1px;
+    margin-left: 100px;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+.item-3 {
+    font-family: "Poppins";
+   font-weight: 200px;
+    font-size: 20px;
+    line-height: 14px;
+    letter-spacing: -1px;
+    margin-top: 35px;
+    margin-left: 100px;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+.item-4 {
+    font-family: "Poppins";
+   font-weight: 200px;
+    font-size: 20px;
+    line-height: 14px;
+    letter-spacing: -1px;
+    margin-top: 70px;
+    margin-left: 100px;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
